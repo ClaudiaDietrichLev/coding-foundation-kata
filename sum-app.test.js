@@ -9,6 +9,7 @@ describe("Sum App", function () {
     chai.expect(sumApp).to.have.property("addNumber");
   });
 
+  
   it("The addNumber method should add a number to the numbers array", function () {
     const sumApp = new SumApp();
     sumApp.addNumber(1);
