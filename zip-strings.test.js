@@ -19,3 +19,4 @@ describe("Zip Procedure", function () {
     chai.expect(zipStrings("a", "")).to.equal("a");
   });
 });
+

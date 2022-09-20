@@ -16,6 +16,7 @@ describe("Filter API data", function () {
       title: "",
     },
   ];
+  
 
   it("should filter all objects that contain the key id", function () {
     chai.expect(filterApiData(apiData, ["id"])).to.eql([
